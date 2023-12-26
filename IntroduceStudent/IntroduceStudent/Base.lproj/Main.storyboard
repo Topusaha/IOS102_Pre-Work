@@ -105,6 +105,9 @@
                                     <constraint firstAttribute="width" constant="100" id="GhX-SG-OTT"/>
                                     <constraint firstAttribute="height" constant="30" id="azq-OK-kcJ"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="didStepperChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="a0p-Vo-rp8"/>
+                                </connections>
                             </stepper>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5GT-R8-IhZ">
                                 <rect key="frame" x="68.666666666666671" y="545" width="35" height="30"/>
@@ -145,6 +148,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Introduce">
                                     <color key="baseForegroundColor" systemColor="tintColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="IntroduceSelf:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qke-5h-syf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
